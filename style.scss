@@ -1,0 +1,40 @@
+@import "reset";
+@import "variables";
+@import "mixins";
+
+
+
+a{
+  text-decoration: none;
+}
+
+p{
+font-size: 14px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0.25px;
+color: $second-text-color;
+}
+
+.hero-section {
+  @include d-flex-c;
+  width: 100%;
+  height: 100vh;
+  padding: 55px 75px;
+  background-image: url(/assets/hero-bg.svg);
+  
+  header {
+    @include d-flex-r;
+    justify-content: space-between;
+  }
+  nav {
+    @include d-flex-r;
+  }
+  nav ul {
+    @include d-flex-r;
+  }
+
+  .nav-icons {
+    @include d-flex-r;
+  }
+}
