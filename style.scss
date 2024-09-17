@@ -23,6 +23,7 @@ color: $second-text-color;
   padding: 55px 75px;
   background-image: url(/assets/hero-bg.svg);
   
+  
   header {
     @include d-flex-r;
     justify-content: space-between;
